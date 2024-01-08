@@ -43,6 +43,7 @@ export const TECH_STACK = [
   'NextJS',
   'NestJs',
   'NodeJS',
+  'Docker',
   'CSS',
   'REST API',
   'TailwindCSS',

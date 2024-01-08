@@ -35,7 +35,7 @@ const Banner = () => {
                             <Link to='intro' spy={true} smooth={true} duration={500} offset={-50} className="button  text-white ">Explore</Link>
                         </div>
                         <div className="w-48 h-52 relative hidden md:block">
-                            <img className='absolute top-8 w-full h-full' src="images/emoji.png" alt="emoji" />
+
                         </div>
                     </div>
                 </div>
