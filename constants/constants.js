@@ -5,8 +5,19 @@ export const DESIGNATION = `Software developer | AI Enthusiast | Musician`;
 export const DETAILS = {
   Residence: 'Romania',
   City: 'Bucuresti',
-  Age: '25',
+  Age: calculateAge('1998-05-18'),
 };
+
+function calculateAge(birthdate) {
+  const birthdateObj = new Date(birthdate);
+  const currentDate = new Date();
+
+  const timeDiff = currentDate - birthdateObj;
+
+  const years = Math.floor(timeDiff / (1000 * 60 * 60 * 24 * 365.25));
+
+  return years;
+}
 
 export const SKILLS = [
   {
@@ -46,18 +57,21 @@ export const TECH_STACK = [
   'Docker',
   'CSS',
   'REST API',
+  'C#',
+  '.NET MVC & CORE',
+  'Python',
   'TailwindCSS',
   'Supabase',
   'PostgreSql',
   'Material UI',
   'Next UI',
-  'Python',
   'SCSS',
   'MongoDB',
   'MySQL',
   'Git',
   'GitHub',
-  'Jira',
+  'Azure Boards',
+  'Jira'
 ];
 
 export const CONTACTS = {

@@ -14,8 +14,10 @@ const Portfolio = () => {
             .then(({ data }) => data)
             .catch(error => console.error('Error fetching testimonials:', error)))
     return (
-        <BannerLayout>
-            <div className="grid justify items-center grid-flow-row md:grid-cols-2 grid-rows-auto gap-4 px-8 my-6">
+ <>
+                     <h1 className="text-white ml-10 text-xl font-bold mt-6">Projects</h1>
+            <div className="grid justify items-center grid-flow-row md:grid-cols-2 grid-rows-auto gap-4 px-8 my-6 ">
+
 
                 {
                     isLoading ?
@@ -31,8 +33,7 @@ const Portfolio = () => {
 
 
             </div >
-            <Footer />
-        </BannerLayout >
+            </>
     );
 };
 

@@ -14,7 +14,7 @@ const Nav = ({ setIsOpen, isOpen }) => {
                 <div onClick={e => setIsOpen(false)} className="flex text-LightGray absolute top-0 w-full items-center justify-start pl-6 text-sm h-10 bg-EveningBlack">
                     <ImCross />
                 </div>
-                <div className="flex flex-col gap-y-2 px-6 w-full transition">
+                <div className="flex  flex-col gap-y-2 px-6 w-full transition">
                     <NavItem setIsOpen={setIsOpen} NavRoute={'/'} NavIcon={<ImHome />} NavText={'Home'} />
                     <NavItem setIsOpen={setIsOpen} NavRoute={'/contact'} NavIcon={<FaHandshake />} NavText={'Contact'} />
                     <NavItem setIsOpen={setIsOpen} NavRoute={'/background'} NavIcon={<HiIdentification />} NavText={'Background'} />

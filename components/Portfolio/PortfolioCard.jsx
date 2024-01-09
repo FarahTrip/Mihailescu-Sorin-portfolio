@@ -1,4 +1,6 @@
+
 import Badge from "../Common/Badge"
+import Link from "next/link"
 
 const PortfolioCard = ({ data }) => {
     return (
@@ -13,14 +15,14 @@ const PortfolioCard = ({ data }) => {
                     <h3 className="mr-2 underline italic font-semibold pt-2 text-2xl text-Snow leading-tight sm:leading-normal">
                         <a
                             href={data?.url}
-                            target="_blank"
+                
                             rel="noreferrer"
                         >
                             {data?.projectName}
                         </a>
                     </h3>
                     <div className="text-Snow transition duration-500 hover:text-yellow transform hover:-translate-y-1 hover:scale-110 pt-4 text-base">
-                        <a
+                        <Link
                             href={data?.url}
                             target="_blank"
                             rel="noreferrer"
@@ -41,7 +43,7 @@ const PortfolioCard = ({ data }) => {
                                     className=""
                                 ></path>
                             </svg>
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <p className="text-xs text-LightGray font-normal">
