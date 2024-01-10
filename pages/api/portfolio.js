@@ -3,7 +3,7 @@ const portfolio = [
         id: 0,
         projectName: "Trippin",
         url: "project?name=Trippin",
-        image: "projects/trippin.png",
+        image: "/projects/trippin.png",
         projectDetail: "Trippin serves as the ultimate music hub, providing a comprehensive platform for artists and producers to seamlessly collaborate and release their music across various platforms. Additionally, it offers a unique opportunity for fans to forge deeper connections with their favorite artists through participation in exclusive private communities featuring premium content.",
         technologiesUsed: [
             {
@@ -56,7 +56,7 @@ const portfolio = [
         id: 0,
         projectName: "Cymatics CMS",
         url: "/",
-        image: "projects/cymatics-cms.PNG",
+        image: "/projects/cymatics-cms.PNG",
         projectDetail: "This application functions both as a Content Management System (CMS) and an admin panel, exclusively designed for internal use. Its primary purpose is to monitor the waitlist and efficiently manage content.",
         technologiesUsed: [
             {
@@ -78,7 +78,7 @@ const portfolio = [
         id: 0,
         projectName: "Music sharing app",
         url: "https://github.com/FarahTrip/Music-sharing-app",
-        image: "projects/music-sharing-app.png",
+        image: "/projects/music-sharing-app.png",
         projectDetail: "This endeavor originated from a curiosity about the inner workings of music apps and a personal aspiration to undertake a significant project independently. Currently, the project boasts an array of impressive features, including seamless song uploads, an integrated chat system, role-based authentication, and numerous other enhancements.",
         technologiesUsed: [
             {

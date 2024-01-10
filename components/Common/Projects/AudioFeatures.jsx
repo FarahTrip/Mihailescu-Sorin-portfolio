@@ -9,6 +9,7 @@ Initially, I conducted an analysis to identify essential features for developing
 <div className='w-full flex justify-center gap-40'>
 <Image className='flex w-80' width={1000} height={1000} src={'/images/trippin4.png'}></Image>
 <Image className='flex w-80' width={1000} height={1000} src={'/images/trippin5.png'}></Image>
+
 </div>
 <p>
 I meticulously prepared the data, extracting a set of audio features that serve as the foundation for predicting the necessary values.</p>
