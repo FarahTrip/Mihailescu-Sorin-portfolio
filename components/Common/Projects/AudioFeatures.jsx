@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import trippin4 from "../../../public/images/trippin4.png"
-import trippin5 from "../../../public/images/trippin5.png"
-import trippin6 from "../../../public/images/trippin6.png"
+import trippin4 from "/public/images/trippin4.png"
+import trippin5 from "/public/images/trippin5.png"
+import trippin6 from "/public/images/trippin6.png"
 
 const AudioFeatures = () => {
   return (

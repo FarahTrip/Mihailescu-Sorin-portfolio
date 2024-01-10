@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import { CopyBlock,dracula } from "react-code-blocks"; 
-import trippin3 from "../../../public/images/trippin3.png"
-import trippin2 from "../../../public/images/trippin2.gif"
+import trippin3 from "/public/images/trippin3.png"
+import trippin2 from "/public/images/trippin2.gif"
 
 
 const Trippin = () => {
