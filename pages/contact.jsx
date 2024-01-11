@@ -20,40 +20,38 @@ const Contact = () => {
                         <div className="card_stylings w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4">
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>Country:</span>
-                                <span className='text-LightGray md:text-sm'>Pakistan</span>
+                                <span className='text-LightGray md:text-sm'>Romania</span>
                             </div>
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>City:</span>
-                                <span className='text-LightGray md:text-sm'>Peshawar</span>
+                                <span className='text-LightGray md:text-sm'>Bucharest</span>
                             </div>
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>Company:</span>
-                                <span className='text-LightGray md:text-sm'>CodeWorthy</span>
+                                <span className='text-LightGray md:text-sm'>Not yet</span>
                             </div>
                         </div>
                         <div className="card_stylings rounded-xl w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4">
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>Email:</span>
-                                <span className='text-LightGray text-sm'>iosamajavaid@gmail.com</span>
+                                <span className='text-LightGray text-sm'>sorin.mihailescu@outlook.com</span>
                             </div>
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>Linkedin:</span>
-                                <span className='text-LightGray text-sm'>reachOsama</span>
+                                <span className='text-LightGray text-sm'>Sorin Mihailescu</span>
                             </div>
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>Phone:</span>
-                                <span className='text-LightGray text-sm'>+92 (315) 9591822</span>
+                                <span className='text-LightGray text-sm'>+40 720590096</span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="h-16 w-full card_stylings text-xl sm:text-3xl flex gap-x-8 sm:gap-x-16 items-center justify-center text-Snow">
-                    <a className='hover:scale-125 ease-in-out duration-700' href="" target='_blank' rel="noreferrer"><HiMail /></a>
-                    <a className='hover:scale-125 ease-in-out duration-700' href="https://github.com/osamajavaid" target='_blank' rel="noreferrer"><FaGithub /></a>
-                    <a className='hover:scale-125 ease-in-out duration-700' href="https://www.linkedin.com/in/iosamajavaid/" target='_blank' rel="noreferrer"><FaLinkedin /></a>
-                    <a className='hover:scale-125 ease-in-out duration-700' href="https://x.com/iosamajavaid" target='_blank' rel="noreferrer"><FaTwitter /></a>
-                    <a className='hover:scale-125 ease-in-out duration-700 hidden sm:block' href="https://www.fiverr.com/codeworthy" target='_blank' rel="noreferrer"><Fiverr_Icon /></a>
-                    <a className='hover:scale-125 ease-in-out duration-700 text-2xl sm:text-4xl mt-1' href="#" target='_blank' rel="noreferrer"><SiUpwork /></a>
+                    <a className='hover:scale-125 ease-in-out duration-700' href="mailto:sorin.mihailescu@outlook.com" target='_blank' rel="noreferrer"><HiMail /></a>
+                    <a className='hover:scale-125 ease-in-out duration-700' href="https://github.com/FarahTrip" target='_blank' rel="noreferrer"><FaGithub /></a>
+                    <a className='hover:scale-125 ease-in-out duration-700' href="https://www.linkedin.com/in/mihailescu-sorin-daniel-46a370189/" target='_blank' rel="noreferrer"><FaLinkedin /></a>
+                    <a className='hover:scale-125 ease-in-out duration-700 text-2xl sm:text-4xl mt-1' href="https://www.upwork.com/freelancers/~01f093b93e236391b2?viewMode=1" target='_blank' rel="noreferrer"><SiUpwork /></a>
                 </div>
 
 
@@ -107,9 +105,7 @@ const Contact = () => {
                 onCancel={() => setIsOpen(false)}
             >
                 <div className='flex flex-col items-center justify-center'>
-                    <h1 className='text-Green font-bold text-2xl'>In Progress</h1>
-                    <a className='underline text-Snow' target='_blank' href='https://github.com/osamajavaid/portfolio'>Be the one to integrate this!</a>
-                </div>
+                    <h1 className='text-[#7c02ff] font-bold text-2xl'>In Progress</h1>                </div>
             </Modal>
             <Footer />
         </BannerLayout>

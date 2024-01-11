@@ -14,10 +14,9 @@ function Background() {
         axios.get('api/background')
             .then(({ data }) => data)
             .catch(error => console.error('Error fetching testimonials:', error)))
-
     return (
         <BannerLayout>
-            <div className="grid md:grid-cols-2 md:divide-x-4 md:divide-Green px-4 pb-2 pt-10">
+            <div className="grid md:grid-cols-2 md:divide-x-4 md:divide-[#7b00ff] px-4 pb-2 pt-10">
                 <div className="flex flex-col gap-y-4 order-2 md:order-1  md:mr-12">
                     <div className="mt-10 md:mt-0 text-xl text-Snow font-semibold">Education</div>
                     {isLoading ?
@@ -29,7 +28,6 @@ function Background() {
                             <Edu_Card key={key} data={data} />
                         ))
                     }
-
                 </div>
                 <div className="order-1 md:order-2">
                     <div className="flex flex-col gap-y-4 md:ml-12">

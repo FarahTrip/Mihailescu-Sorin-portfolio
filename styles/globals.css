@@ -26,7 +26,7 @@ body {
       @apply bg-[#7c02ff] hover:bg-[#a561e4] transition rounded-xl text-MidNightBlack text-base font-medium  px-8 py-2;
     }
     .input_stylings {
-      @apply bg-DeepNightBlack text-SilverGray text-sm rounded-lg outline-none focus:ring-1 focus:ring-Green block w-full pl-10 p-2.5;
+      @apply bg-DeepNightBlack text-SilverGray text-sm rounded-lg outline-none focus:ring-1 focus:ring-[#7c02ff] block w-full pl-10 p-2.5;
     }
 
     @font-face {
