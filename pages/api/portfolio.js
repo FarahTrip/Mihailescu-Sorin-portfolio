@@ -55,7 +55,7 @@ const portfolio = [
     {
         id: 0,
         projectName: "Cymatics CMS",
-        url: "/",
+        url: "https://cymatics.trippin.ro/",
         image: "/projects/cymatics-cms.PNG",
         projectDetail: "This application functions both as a Content Management System (CMS) and an admin panel, exclusively designed for internal use. Its primary purpose is to monitor the waitlist and efficiently manage content.",
         technologiesUsed: [

@@ -5,6 +5,9 @@ import Portfolio from '../pages/portfolio'
 import Recommendations from '../components/HomeComponents/Recommendations/Recommendations';
 import ClientReviews from '../components/HomeComponents/ClientReviews/ClientReviews';
 const home = () => {
+
+    
+
     return (
         <div className="Home-Page -z-10">
             <Banner />

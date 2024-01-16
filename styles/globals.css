@@ -149,6 +149,10 @@ body {
   max-height: 100vh;
 }
 
+.trippin-gradient2 {
+  background: var(--Gradient, linear-gradient(90deg, #6b08c7 0%, #b916b9 100%));
+}
+
 .number-slide1 {
   background: rgb(64, 175, 255);
   background: linear-gradient(
